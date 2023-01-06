@@ -27,7 +27,7 @@ flex-direction:column;
 align-items:center;
 `
 const Title = styled.h1`
-color:white;
+ color: #F9F6EE;
   margin-bottom:20px;
 `
 const Button = styled.button`
