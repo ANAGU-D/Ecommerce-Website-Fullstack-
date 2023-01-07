@@ -52,3 +52,48 @@ export const categories =[
     },
 
 ]
+
+export const PopularProducts =[
+    {
+        id:1,
+        img:'/images/img7.png',
+        title:'SUMMER FASHION ',
+    },
+    {
+        id:2,
+        img:'/images/img9.png',
+        title:'WINTER FASHION',
+    },
+    {
+        id:3,
+        img:'/images/img08.png',
+        title:'POPULAR FASHION',
+    },
+    {
+        id:4,
+        img:'/images/img05.png',
+        title:'FEATURED FASHION',
+    },
+    {
+        id:1,
+        img:'/images/img04.png',
+        title:'SUMMER FASHION ',
+    },
+    {
+        id:2,
+        img:'/images/img6.png',
+        title:'WINTER FASHION',
+    },
+    {
+        id:3,
+        img:'/images/img8.png',
+        title:'POPULAR FASHION',
+    },
+    {
+        id:4,
+        img:'/images/img07.png',
+        title:'FEATURED FASHION',
+    },
+
+
+]
