@@ -40,6 +40,9 @@ const Button = styled.button`
 `
 
 const CategoriesItem=({item})=> {
+  if(!item||!item){
+    return null
+  }
   return (
     <Container>
         <Image src={item.img}/>
