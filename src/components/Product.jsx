@@ -63,6 +63,9 @@ const Icon= styled.div`
 `
 
 function Product({item}) {
+  if(!item|| !item){
+    return null;
+  }
   return (
     <Container>
         <Circle/>
