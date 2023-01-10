@@ -1,10 +1,12 @@
 import { Facebook, Instagram, Mail, Phone, Room, Twitter } from '@mui/icons-material'
 import React from 'react'
 import styled from 'styled-components'
+import {mobile} from '../responsive'
 
 
 const Container = styled.div`
 display:flex;
+${mobile({flexDirection:'column'})}
 `
 const Left= styled.div`
 flex:1;
@@ -14,10 +16,12 @@ margin-top:-2%;
 const Center = styled.div`
 flex:1;
 padding:20px;
-`
+${mobile({display:'none'})}
+`;
 const Right = styled.div`
 flex:1;
 padding:20px;
+${mobile({backgroundColor:'#eee'})}
 `
 const Title = styled.h3`
 margin-bottom:20px;
@@ -100,7 +104,7 @@ const Footer = () => {
         <Right>
             <Title>
               <ContactItem>
-                <Room style={{marginRight:'10px'}}/> 622 Dixie Path, SOuth Tobinchester 98336
+                <Room style={{marginRight:'10px'}}/> 622 Dixie Path, South Tobinchester 98336
                 </ContactItem> 
                 <ContactItem>
                  <Phone style={{marginRight:'10px'}}/> +1 234 556 6755
