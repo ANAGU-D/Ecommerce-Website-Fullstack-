@@ -1,6 +1,7 @@
 import { Search, ShoppingCartOutlined } from '@mui/icons-material'
 import { Badge } from '@mui/material'
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import {mobile} from '../responsive'
 
@@ -71,10 +72,10 @@ function Navbar() {
                 <Input/>
               </SearchContainer>
             </Left>
-            <Center><Logo>ANAGZ</Logo></Center>
+            <Center><Logo><Link to='/'>ANAGZ</Link></Logo></Center>
             <Right>
-            <MenuItems>REGISTER</MenuItems>
-            <MenuItems>SIGN IN</MenuItems>
+            <MenuItems><Link to='/register'>REGISTER</Link></MenuItems>
+            <MenuItems><Link to='/login'>SIGN IN</Link></MenuItems>
             <MenuItems>
                 <Badge badgeContent={4} color="primary">
                    <ShoppingCartOutlined/>
