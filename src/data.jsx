@@ -31,22 +31,22 @@ export const sliderItems =[
 
 export const categories =[
     {
-        id:1,
+        id:5,
         img:'/images/img04.png',
         title:'SUMMER FASHION ',
     },
     {
-        id:2,
+        id:6,
         img:'/images/img6.png',
         title:'WINTER FASHION',
     },
     {
-        id:3,
+        id:7,
         img:'/images/img8.png',
         title:'POPULAR FASHION',
     },
     {
-        id:4,
+        id:8,
         img:'/images/img07.png',
         title:'FEATURED FASHION',
     },
@@ -55,45 +55,44 @@ export const categories =[
 
 export const PopularProducts =[
     {
-        id:1,
+        id:9,
         img:'/images/img7.png',
         title:'SUMMER FASHION ',
     },
     {
-        id:2,
+        id:10,
         img:'/images/img9.png',
         title:'WINTER FASHION',
     },
     {
-        id:3,
+        id:11,
         img:'/images/img08.png',
         title:'POPULAR FASHION',
     },
     {
-        id:4,
+        id:12,
         img:'/images/img05.png',
         title:'FEATURED FASHION',
     },
     {
-        id:1,
+        id:13,
         img:'/images/img04.png',
         title:'SUMMER FASHION ',
     },
     {
-        id:2,
+        id:14,
         img:'/images/img6.png',
         title:'WINTER FASHION',
     },
     {
-        id:3,
+        id:15,
         img:'/images/img8.png',
         title:'POPULAR FASHION',
     },
     {
-        id:4,
+        id:16,
         img:'/images/img07.png',
         title:'FEATURED FASHION',
     },
-
 
 ]
