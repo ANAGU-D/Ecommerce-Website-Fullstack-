@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import {mobile} from '../responsive';
 
 const Container = styled.div`
 width:100vw;
@@ -16,7 +17,8 @@ const Wrapper = styled.div`
    padding:20px;
    width:40%;
    background-color:white;
-`
+   ${mobile({width:'75%', height:'90vh', marginBottom:'2%'})}
+`;
 const Title = styled.h1`
 font-size:24px;
 font-width:300;
@@ -32,11 +34,13 @@ flex:1;
 min-width:40%;
 margin:20px 10px 0px 0px;
 padding:10px;
-`
+${mobile({margin:'10px 5px 0px 0px'})}
+`;
 
 const Agreement = styled.span`
 font-size:12px;
 margin:20px 0px;
+${mobile({justifyContent:'flex-start', textAlign:'justify'})}
 `
 
 const Button = styled.button`
@@ -46,6 +50,7 @@ padding:15px 20px;
 background-color:teal;
 color:white;
 cursor:pointer;
+${mobile({margin:'-5px 0px 0px 0px'})}
 `
 
 const Register = () => {
